@@ -1,0 +1,63 @@
+import json
+
+produktionsprogramm_motoren = [
+    "Bosch_LIC-B",
+    "Bosch_LIC",
+    "Bosch_EL",
+    "Valeo_TG15",
+    "Denso_104210",
+    "Valeo_SG12",
+    "Valeo_TG14",
+    "Bosch_LI-X",
+    "Mitsubishi_A5T",
+    "Valeo_SG9",
+    "Valeo_A14",
+    "Valeo_TG17",
+    "Bosch_LIT(Topf)",
+    "Valeo_TG11",
+    "Mareli_6332",
+    "Denso_101210",
+    "Valeo_TG",
+    "Hitachi_LR",
+    "Valeo_A13V",
+    "Valeo_SG15",
+    "Valeo_A11",
+    "Jap_37300",
+    "Bosch_NBL",
+    "Valeo_SG14",
+    "Valeo_TG9",
+    "Valeo_TG8",
+    "Valeo_A13N",
+    "Visteon_2S6",
+    "Visteon_1S7",
+    "Valeo_SG7",
+    "Valeo_SG10",
+    "Valeo_SG8",
+    "Visteon_2T",
+    "Bosch_T1-DT1/T1 Sattel",
+    "Valeo_TG10",
+    "Valeo_TG12",
+    "Denso_101211",
+    "Delco_8400159"
+]
+
+with open(r"C:\Users\Wiwi\.vscode\Produktionsprogramm_Generator\weekly_QK_bosch_production_program.json", 'r') as file:
+    data = json.load(file)
+
+# Iteriere über alle Perioden
+for periode_key, periode_value in data.items():
+    # Überprüfe, ob alle Motoren aus der Liste in der Periode vorhanden sind
+    for motor in produktionsprogramm_motoren:
+        if motor not in periode_value:
+            # Füge fehlenden Motor hinzu
+            periode_value[motor] = {
+                "c0p0s0m0": 0, "c0p0s0m1": 0, "c0p0s1m0": 0, "c0p0s1m1": 0,
+                "c0p1s0m0": 0, "c0p1s0m1": 0, "c0p1s1m0": 0, "c0p1s1m1": 0,
+                "c1p0s0m0": 0, "c1p0s0m1": 0, "c1p0s1m0": 0, "c1p0s1m1": 0,
+                "c1p1s0m0": 0, "c1p1s0m1": 0, "c1p1s1m0": 0, "c1p1s1m1": 0
+            }
+
+# Speichere die aktualisierten Daten in einer neuen JSON-Datei
+with open(r"C:\Users\Wiwi\.vscode\Produktionsprogramm_Generator\Output\weekly_PP_all_QK_all_periods.json", 'w') as file:
+    json.dump(data, file, indent=2)
+

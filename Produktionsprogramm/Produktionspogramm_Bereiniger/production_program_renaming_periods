@@ -1,0 +1,16 @@
+import json
+
+# Deine JSON-Datei einlesen
+with open(r"C:\Users\Wiwi\.vscode\Produktionspogramm\Bereinigte_Daten\daily_adjusted_bosch_production_program_21_22.json", 'r') as file:
+    data = json.load(file)
+
+# Die neuen Namen für die Zeitstempel erstellen
+new_names = {timestamp: f'period_{i+1}' for i, (timestamp, _) in enumerate(data.items())}
+
+# Die Zeitstempel in der Datenstruktur ersetzen
+new_data = {new_names[timestamp]: value for timestamp, value in data.items()}
+
+# Die aktualisierten Daten in eine neue JSON-Datei schreiben
+with open(r"C:\Users\Wiwi\.vscode\Produktionspogramm\daily_adjusted_renamed_periods.json", 'w') as file:
+    json.dump(new_data, file, indent=2)
+

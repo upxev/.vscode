@@ -1,0 +1,86 @@
+import json
+
+def korrigiere_produktbezeichnungen(json_daten):
+    korrektur_mapping = {
+        "Bosch_LIC-B /-E /-P": "Bosch_LIC-B",
+        "Bosch_LIT (Topf)": "Bosch_LIT(Topf)",
+        "Bosch_T1 - DT1 / T1 Sattel" : "Bosch_T1-DT1/T1 Sattel",
+        "Mar_6332": "Mareli_6332",
+        "Denso_102211" : "Denso_101211"
+        # Weitere Korrekturen hinzufügen, falls erforderlich
+    }
+
+    korrigierte_daten = {}
+
+    for woche, daten in json_daten.items():
+        duration_wert = daten.get ("duration")
+
+        if duration_wert is None:
+            korrigierte_duration = 480 
+        else:
+            korrigierte_duration = duration_wert
+
+        korrigierte_daten[woche] = {
+            "ID": daten["ID"],
+            "duration": korrigierte_duration
+        }
+
+        for produkt, menge in daten.items():
+            if produkt in korrektur_mapping:
+                korrigiertes_produkt = korrektur_mapping[produkt]
+                korrigierte_daten[woche][korrigiertes_produkt] = menge
+            else:
+                korrigierte_daten[woche][produkt] = menge
+
+    return korrigierte_daten
+
+def entferne_produkte(json_daten, zu_entfernende_produkte):
+    bereinigte_daten = {}
+
+    for woche, daten in json_daten.items():
+        duration_wert = daten.get("duration")
+        
+        if duration_wert is None:
+            korrigierte_duration = 480 
+        else:
+            korrigierte_duration = duration_wert
+        
+        bereinigte_daten[woche] = {
+            "ID": daten["ID"],
+            "duration": korrigierte_duration
+        }
+
+        for produkt, menge in daten.items():
+            if produkt not in zu_entfernende_produkte:
+                bereinigte_daten[woche][produkt] = menge
+
+    return bereinigte_daten
+
+if __name__ == "__main__":
+    with open(r"C:\Users\Wiwi\.vscode\Produktionspogramm\Input\bosch_production_program_21_22_daily_basis.json", "r") as datei:
+        daten = json.load(datei)
+
+     # Produkte, die entfernt werden sollen
+    zu_entfernende_produkte = [
+        "Valeo_CG20",
+        "Valeo_FG15T036",
+        "Valeo_FG15T056",
+        "Valeo_FG18S017",
+        "Valeo_FG18S019",
+        "Denso",
+        "LUCAS",
+        "NipponDenso",
+        "#NV"
+    ]
+
+    korrigierte_daten = korrigiere_produktbezeichnungen(daten)
+    bereinigte_daten = entferne_produkte(korrigierte_daten, zu_entfernende_produkte)
+
+
+    with open(r"C:\Users\Wiwi\.vscode\Produktionspogramm\Bereinigte_Daten\bosch_production_program_21_22_daily_adjusted.json", "w") as datei:
+        json.dump(bereinigte_daten, datei, indent=4)
+
+print(bereinigte_daten)
+
+
+

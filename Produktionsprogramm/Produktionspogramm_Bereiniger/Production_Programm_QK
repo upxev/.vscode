@@ -1,0 +1,40 @@
+
+import json
+
+# Lese die vorhandene JSON-Datei ein
+input_file_path = r"Bereinigte_Daten/daily_adjusted_bosch_production_program_21_22.json"
+output_file_path = r"C:\Users\Wiwi\.vscode\Produktionspogramm\Bereinigte_Daten\daily_QK_bosch_production_program.json"
+with open(input_file_path, 'r') as file:
+    production_program = json.load(file)
+
+# Kopiere die Wurzelelemente, um Änderungen während der Iteration zu vermeiden
+periods = list(production_program.keys())
+
+# Iteriere über jede Periode im Produktionsprogramm
+for idx, period in enumerate(periods):
+    details = production_program[period]
+
+    # Erstelle eine Kopie der Qualitätsklassen-Struktur
+    quality_classes = {
+        "c0p0s0m0": 0, "c0p0s0m1": 0, "c0p0s1m0": 0, "c0p0s1m1": 0,
+        "c0p1s0m0": 0, "c0p1s0m1": 0, "c0p1s1m0": 0, "c0p1s1m1": 0,
+        "c1p0s0m0": 0, "c1p0s0m1": 0, "c1p0s1m0": 0, "c1p0s1m1": 0,
+        "c1p1s0m0": 0, "c1p1s0m1": 0, "c1p1s1m0": 0, "c1p1s1m1": 0
+    }
+
+    # Umbenenne das Wurzelelement
+    new_period_name = f"period_{idx+1}"
+    production_program[new_period_name] = production_program.pop(period)
+
+    # Iteriere über jeden Motortyp in der aktuellen Periode
+    for motor_type, quantity in details.items():
+        # Ignoriere ID und duration
+        if motor_type not in ["ID", "duration"]:
+            # Erstelle die Qualitätsklassen für den aktuellen Motortyp
+            production_program[new_period_name][motor_type] = {k: quantity if k == "c0p0s0m0" else 0 for k in quality_classes}
+
+# Schreibe die modifizierte Struktur in eine neue JSON-Datei
+with open(output_file_path, 'w') as file:
+    json.dump(production_program, file, indent=2)
+
+

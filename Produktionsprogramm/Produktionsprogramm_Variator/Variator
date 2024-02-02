@@ -1,0 +1,45 @@
+import json
+import random
+
+def update_produktionsmenge_gleichnäßige_Verteilung(json_dateipfad):
+    try:
+
+        with open(json_dateipfad, 'r') as json_datei:
+            produktionsprogramm = json.load(json_datei)
+
+        # Über alle Perioden iterieren
+        for periode, motoren in produktionsprogramm.items():
+             for motor, qualitaetsklassen in motoren.items():
+                # Überspringe ID und duration
+                if motor == "ID" or motor == "duration":
+                    continue
+
+                zu_produzierende_menge = 0
+                for qk, menge in qualitaetsklassen.items():
+                    zu_produzierende_menge += menge
+                
+                gleichmaessige_menge = zu_produzierende_menge // 16
+                rest_menge = zu_produzierende_menge % 16
+                
+                # Verteile die gleichmäßige Menge
+                for qk in qualitaetsklassen.keys():
+                    produktionsprogramm[periode][motor][qk] = gleichmaessige_menge
+                
+                # Verteile den Rest zufällig
+                for _ in range(rest_menge):
+                    random_qk = random.choice(list(qualitaetsklassen.keys()))
+                    produktionsprogramm[periode][motor][random_qk] += 1
+
+     
+        with open(r"C:\Users\Wiwi\.vscode\Produktionsprogramm_Variator\output.json", 'w') as json_datei:
+            json.dump(produktionsprogramm, json_datei, indent=2)
+
+    except Exception as e:
+        print(f'Fehler beim Aktualisieren der Produktionsmenge: {e}')
+
+json_dateipfad = r"C:\Users\Wiwi\.vscode\Produktionsprogramm_Variator\Input\weekly_PP_all_QK_all_periods.json"
+update_produktionsmenge_gleichnäßige_Verteilung(json_dateipfad)
+
+
+
+

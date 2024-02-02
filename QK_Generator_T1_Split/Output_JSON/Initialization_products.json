@@ -1,0 +1,4933 @@
+{
+    "products": {
+        "Bosch_LIC-B": {
+            "product_id": 1,
+            "product_structure": {
+                "ABCDEFGIJLMNO": {
+                    "T1": [
+                        ">I",
+                        "ABCDEFGJLMNO"
+                    ]
+                },
+                "ABCDEFGJLMNO": {
+                    "T2": [
+                        ">A",
+                        "BCDEFGJLMNO"
+                    ]
+                },
+                "BCDEFGJLMNO": {
+                    "T3": [
+                        ">C",
+                        "BDEFGJLMNO"
+                    ]
+                },
+                "BDEFGJLMNO": {
+                    "T4": [
+                        ">B",
+                        "DEFGJLMNO"
+                    ]
+                },
+                "DEFGJLMNO": {
+                    "T5": [
+                        ">F",
+                        "DEGJLMNO"
+                    ]
+                },
+                "DEGJLMNO": {
+                    "T6": [
+                        ">E",
+                        "DO",
+                        "GJLMN"
+                    ]
+                },
+                "DO": {
+                    "T7": [
+                        ">D",
+                        ">O"
+                    ]
+                },
+                "GJLMN": {
+                    "T8": [
+                        "GJ",
+                        "LMN"
+                    ]
+                },
+                "GJ": {
+                    "T9": [
+                        ">G",
+                        ">J"
+                    ]
+                },
+                "LMN": {
+                    "T10": [
+                        ">L",
+                        ">M",
+                        ">N"
+                    ]
+                }
+            },
+            "quality_classes": {
+                "c0p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                }
+            }
+        },
+        "Bosch_LIC": {
+            "product_id": 2,
+            "product_structure": {
+                "ABCDEFGIJLMNO": {
+                    "T1": [
+                        ">I",
+                        "ABCDEFGJLMNO"
+                    ]
+                },
+                "ABCDEFGJLMNO": {
+                    "T2": [
+                        ">A",
+                        "BCDEFGJLMNO"
+                    ]
+                },
+                "BCDEFGJLMNO": {
+                    "T3": [
+                        ">C",
+                        "BDEFGJLMNO"
+                    ]
+                },
+                "BDEFGJLMNO": {
+                    "T4": [
+                        ">B",
+                        "DEFGJLMNO"
+                    ]
+                },
+                "DEFGJLMNO": {
+                    "T5": [
+                        ">F",
+                        "DEGJLMNO"
+                    ]
+                },
+                "DEGJLMNO": {
+                    "T6": [
+                        ">E",
+                        "DO",
+                        "GJLMN"
+                    ]
+                },
+                "DO": {
+                    "T7": [
+                        ">D",
+                        ">O"
+                    ]
+                },
+                "GJLMN": {
+                    "T8": [
+                        "GJ",
+                        "LMN"
+                    ]
+                },
+                "GJ": {
+                    "T9": [
+                        ">G",
+                        ">J"
+                    ]
+                },
+                "LMN": {
+                    "T10": [
+                        ">L",
+                        ">M",
+                        ">N"
+                    ]
+                }
+            },
+            "quality_classes": {
+                "c0p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                }
+            }
+        },
+        "Bosch_EL": {
+            "product_id": 3,
+            "product_structure": {
+                "ABCDEFGIJLMNO": {
+                    "T1": [
+                        ">I",
+                        "ABCDEFGJLMNO"
+                    ]
+                },
+                "ABCDEFGJLMNO": {
+                    "T2": [
+                        ">A",
+                        "BCDEFGJLMNO"
+                    ]
+                },
+                "BCDEFGJLMNO": {
+                    "T3": [
+                        ">C",
+                        "BDEFGJLMNO"
+                    ]
+                },
+                "BDEFGJLMNO": {
+                    "T4": [
+                        ">B",
+                        "DEFGJLMNO"
+                    ]
+                },
+                "DEFGJLMNO": {
+                    "T5": [
+                        ">F",
+                        "DEGJLMNO"
+                    ]
+                },
+                "DEGJLMNO": {
+                    "T6": [
+                        ">E",
+                        "DO",
+                        "GJLMN"
+                    ]
+                },
+                "DO": {
+                    "T7": [
+                        ">D",
+                        ">O"
+                    ]
+                },
+                "GJLMN": {
+                    "T8": [
+                        "GJ",
+                        "LMN"
+                    ]
+                },
+                "GJ": {
+                    "T9": [
+                        ">G",
+                        ">J"
+                    ]
+                },
+                "LMN": {
+                    "T10": [
+                        ">L",
+                        ">M",
+                        ">N"
+                    ]
+                }
+            },
+            "quality_classes": {
+                "c0p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                }
+            }
+        },
+        "Valeo_TG15": {
+            "product_id": 4,
+            "product_structure": {
+                "ABCDEFGIJLMNOP": {
+                    "T1": [
+                        ">I",
+                        "ABCDEFGJLMNOP"
+                    ]
+                },
+                "ABCDEFGJLMNOP": {
+                    "T2": [
+                        ">A",
+                        "BCDEFGJLMNOP"
+                    ]
+                },
+                "BCDEFGJLMNOP": {
+                    "T3": [
+                        ">C",
+                        "BDEFGJLMNOP"
+                    ]
+                },
+                "BDEFGJLMNOP": {
+                    "T4": [
+                        ">B",
+                        "DEFGJLMNOP"
+                    ]
+                },
+                "DEFGJLMNOP": {
+                    "T6": [
+                        ">E",
+                        ">P",
+                        "DFO",
+                        "GJLMN"
+                    ]
+                },
+                "DFO": {
+                    "T7": [
+                        ">O",
+                        ">DF"
+                    ]
+                },
+                "GJLMN": {
+                    "T8": [
+                        "GJ",
+                        "LMN"
+                    ]
+                },
+                "GJ": {
+                    "T9": [
+                        ">G",
+                        ">J"
+                    ]
+                },
+                "LMN": {
+                    "T10": [
+                        ">L",
+                        ">M",
+                        ">N"
+                    ]
+                }
+            },
+            "quality_classes": {
+                "c0p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                }
+            }
+        },
+        "Denso_104210": {
+            "product_id": 5,
+            "product_structure": {
+                "ABCDEFGIJLMNO": {
+                    "T1": [
+                        ">I",
+                        "ABCDEFGJLMNO"
+                    ]
+                },
+                "ABCDEFGJLMNO": {
+                    "T2": [
+                        ">A",
+                        "BCDEFGJLMNO"
+                    ]
+                },
+                "BCDEFGJLMNO": {
+                    "T3": [
+                        ">C",
+                        "BDEFGJLMNO"
+                    ]
+                },
+                "BDEFGJLMNO": {
+                    "T4": [
+                        ">B",
+                        "DEFGJLMNO"
+                    ]
+                },
+                "DEFGJLMNO": {
+                    "T5": [
+                        ">F",
+                        "DEGJLMNO"
+                    ]
+                },
+                "DEGJLMNO": {
+                    "T6": [
+                        ">E",
+                        "DO",
+                        "GJLMN"
+                    ]
+                },
+                "DO": {
+                    "T7": [
+                        ">D",
+                        ">O"
+                    ]
+                },
+                "GJLMN": {
+                    "T8": [
+                        "GJ",
+                        "LMN"
+                    ]
+                },
+                "GJ": {
+                    "T9": [
+                        ">G",
+                        ">J"
+                    ]
+                },
+                "LMN": {
+                    "T10": [
+                        ">L",
+                        ">M",
+                        ">N"
+                    ]
+                }
+            },
+            "quality_classes": {
+                "c0p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                }
+            }
+        },
+        "Valeo_SG12": {
+            "product_id": 6,
+            "product_structure": {
+                "ABCDEFGIJLMNOP": {
+                    "T1": [
+                        ">I",
+                        "ABCDEFGJLMNOP"
+                    ]
+                },
+                "ABCDEFGJLMNOP": {
+                    "T2": [
+                        ">A",
+                        "BCDEFGJLMNOP"
+                    ]
+                },
+                "BCDEFGJLMNOP": {
+                    "T3": [
+                        ">C",
+                        "BDEFGJLMNOP"
+                    ]
+                },
+                "BDEFGJLMNOP": {
+                    "T4": [
+                        ">B",
+                        "DEFGJLMNOP"
+                    ]
+                },
+                "DEFGJLMNOP": {
+                    "T6": [
+                        ">E",
+                        ">P",
+                        "DFO",
+                        "GJLMN"
+                    ]
+                },
+                "DFO": {
+                    "T7": [
+                        ">O",
+                        ">DF"
+                    ]
+                },
+                "GJLMN": {
+                    "T8": [
+                        "GJ",
+                        "LMN"
+                    ]
+                },
+                "GJ": {
+                    "T9": [
+                        ">G",
+                        ">J"
+                    ]
+                },
+                "LMN": {
+                    "T10": [
+                        ">L",
+                        ">M",
+                        ">N"
+                    ]
+                }
+            },
+            "quality_classes": {
+                "c0p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                }
+            }
+        },
+        "Valeo_TG14": {
+            "product_id": 7,
+            "product_structure": {
+                "ABCDEFGIJLMNOP": {
+                    "T1": [
+                        ">I",
+                        "ABCDEFGJLMNOP"
+                    ]
+                },
+                "ABCDEFGJLMNOP": {
+                    "T2": [
+                        ">A",
+                        "BCDEFGJLMNOP"
+                    ]
+                },
+                "BCDEFGJLMNOP": {
+                    "T3": [
+                        ">C",
+                        "BDEFGJLMNOP"
+                    ]
+                },
+                "BDEFGJLMNOP": {
+                    "T4": [
+                        ">B",
+                        "DEFGJLMNOP"
+                    ]
+                },
+                "DEFGJLMNOP": {
+                    "T6": [
+                        ">E",
+                        ">P",
+                        "DFO",
+                        "GJLMN"
+                    ]
+                },
+                "DFO": {
+                    "T7": [
+                        ">O",
+                        ">DF"
+                    ]
+                },
+                "GJLMN": {
+                    "T8": [
+                        "GJ",
+                        "LMN"
+                    ]
+                },
+                "GJ": {
+                    "T9": [
+                        ">G",
+                        ">J"
+                    ]
+                },
+                "LMN": {
+                    "T10": [
+                        ">L",
+                        ">M",
+                        ">N"
+                    ]
+                }
+            },
+            "quality_classes": {
+                "c0p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                }
+            }
+        },
+        "Bosch_LI-X": {
+            "product_id": 8,
+            "product_structure": {
+                "ABCDEFGIJLMNOP": {
+                    "T1": [
+                        ">I",
+                        "ABCDEFGJLMNOP"
+                    ]
+                },
+                "ABCDEFGJLMNOP": {
+                    "T2": [
+                        ">A",
+                        "BCDEFGJLMNOP"
+                    ]
+                },
+                "BCDEFGJLMNOP": {
+                    "T3": [
+                        ">C",
+                        "BDEFGJLMNOP"
+                    ]
+                },
+                "BDEFGJLMNOP": {
+                    "T4": [
+                        ">B",
+                        "DEFGJLMNOP"
+                    ]
+                },
+                "DEFGJLMNOP": {
+                    "T6": [
+                        ">E",
+                        ">P",
+                        "DFO",
+                        "GJLMN"
+                    ]
+                },
+                "DFO": {
+                    "T7": [
+                        ">O",
+                        ">DF"
+                    ]
+                },
+                "GJLMN": {
+                    "T8": [
+                        "GJ",
+                        "LMN"
+                    ]
+                },
+                "GJ": {
+                    "T9": [
+                        ">G",
+                        ">J"
+                    ]
+                },
+                "LMN": {
+                    "T10": [
+                        ">L",
+                        ">M",
+                        ">N"
+                    ]
+                }
+            },
+            "quality_classes": {
+                "c0p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                }
+            }
+        },
+        "Mitsubishi_A5T": {
+            "product_id": 9,
+            "product_structure": {
+                "BCDEFGIJLMNOQ*S": {
+                    "T1": [
+                        ">I",
+                        "BCDEFGJLMNOQ*S"
+                    ]
+                },
+                "BCDEFGJLMNOQ*S": {
+                    "T3": [
+                        ">C",
+                        "BDEFGJLMNOQ*S"
+                    ]
+                },
+                "BDEFGJLMNOQ*S": {
+                    "T6": [
+                        ">E",
+                        "BDFOS",
+                        "GJLMN",
+                        "Q*"
+                    ]
+                },
+                "BDFOS": {
+                    "T14": [
+                        "BFS",
+                        "DO"
+                    ]
+                },
+                "GJLMN": {
+                    "T8": [
+                        "GJ",
+                        "LMN"
+                    ]
+                },
+                "BFS": {
+                    "T15": [
+                        ">S",
+                        ">B",
+                        ">F"
+                    ]
+                },
+                "DO": {
+                    "T7": [
+                        ">D",
+                        ">O"
+                    ]
+                },
+                "GJ": {
+                    "T9": [
+                        ">G",
+                        ">J"
+                    ]
+                },
+                "LMN": {
+                    "T10": [
+                        ">L",
+                        ">M",
+                        ">N"
+                    ]
+                },
+                "Q*": {
+                    "T16": [
+                        ">Q"
+                    ]
+                }
+            },
+            "quality_classes": {
+                "c0p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                }
+            }
+        },
+        "Valeo_SG9": {
+            "product_id": 10,
+            "product_structure": {
+                "ABCDEFGIJLMNOP": {
+                    "T1": [
+                        ">I",
+                        "ABCDEFGJLMNOP"
+                    ]
+                },
+                "ABCDEFGJLMNOP": {
+                    "T2": [
+                        ">A",
+                        "BCDEFGJLMNOP"
+                    ]
+                },
+                "BCDEFGJLMNOP": {
+                    "T3": [
+                        ">C",
+                        "BDEFGJLMNOP"
+                    ]
+                },
+                "BDEFGJLMNOP": {
+                    "T4": [
+                        ">B",
+                        "DEFGJLMNOP"
+                    ]
+                },
+                "DEFGJLMNOP": {
+                    "T6": [
+                        ">E",
+                        ">P",
+                        "DFO",
+                        "GJLMN"
+                    ]
+                },
+                "DFO": {
+                    "T7": [
+                        ">O",
+                        ">DF"
+                    ]
+                },
+                "GJLMN": {
+                    "T8": [
+                        "GJ",
+                        "LMN"
+                    ]
+                },
+                "GJ": {
+                    "T9": [
+                        ">G",
+                        ">J"
+                    ]
+                },
+                "LMN": {
+                    "T10": [
+                        ">L",
+                        ">M",
+                        ">N"
+                    ]
+                }
+            },
+            "quality_classes": {
+                "c0p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                }
+            }
+        },
+        "Valeo_A14": {
+            "product_id": 11,
+            "product_structure": {
+                "ABCDEFGIJLMNOP": {
+                    "T1": [
+                        ">I",
+                        "ABCDEFGJLMNOP"
+                    ]
+                },
+                "ABCDEFGJLMNOP": {
+                    "T2": [
+                        ">A",
+                        "BCDEFGJLMNOP"
+                    ]
+                },
+                "BCDEFGJLMNOP": {
+                    "T3": [
+                        ">C",
+                        "BDEFGJLMNOP"
+                    ]
+                },
+                "BDEFGJLMNOP": {
+                    "T4": [
+                        ">B",
+                        "DEFGJLMNOP"
+                    ]
+                },
+                "DEFGJLMNOP": {
+                    "T6": [
+                        ">E",
+                        ">P",
+                        "DFO",
+                        "GJLMN"
+                    ]
+                },
+                "DFO": {
+                    "T7": [
+                        ">O",
+                        ">DF"
+                    ]
+                },
+                "GJLMN": {
+                    "T8": [
+                        "GJ",
+                        "LMN"
+                    ]
+                },
+                "GJ": {
+                    "T9": [
+                        ">G",
+                        ">J"
+                    ]
+                },
+                "LMN": {
+                    "T10": [
+                        ">L",
+                        ">M",
+                        ">N"
+                    ]
+                }
+            },
+            "quality_classes": {
+                "c0p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                }
+            }
+        },
+        "Valeo_TG17": {
+            "product_id": 12,
+            "product_structure": {
+                "ABCDEFGIJLMNOP": {
+                    "T1": [
+                        ">I",
+                        "ABCDEFGJLMNOP"
+                    ]
+                },
+                "ABCDEFGJLMNOP": {
+                    "T2": [
+                        ">A",
+                        "BCDEFGJLMNOP"
+                    ]
+                },
+                "BCDEFGJLMNOP": {
+                    "T3": [
+                        ">C",
+                        "BDEFGJLMNOP"
+                    ]
+                },
+                "BDEFGJLMNOP": {
+                    "T4": [
+                        ">B",
+                        "DEFGJLMNOP"
+                    ]
+                },
+                "DEFGJLMNOP": {
+                    "T6": [
+                        ">E",
+                        ">P",
+                        "DFO",
+                        "GJLMN"
+                    ]
+                },
+                "DFO": {
+                    "T7": [
+                        ">O",
+                        ">DF"
+                    ]
+                },
+                "GJLMN": {
+                    "T8": [
+                        "GJ",
+                        "LMN"
+                    ]
+                },
+                "GJ": {
+                    "T9": [
+                        ">G",
+                        ">J"
+                    ]
+                },
+                "LMN": {
+                    "T10": [
+                        ">L",
+                        ">M",
+                        ">N"
+                    ]
+                }
+            },
+            "quality_classes": {
+                "c0p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                }
+            }
+        },
+        "Bosch_LIT(Topf)": {
+            "product_id": 13,
+            "product_structure": {
+                "BCDEFGIJLMN": {
+                    "T1": [
+                        ">I",
+                        "BCDEFGJLMN"
+                    ]
+                },
+                "BCDEFGJLMN": {
+                    "T3": [
+                        ">C",
+                        "BDEFGJLMN"
+                    ]
+                },
+                "BDEFGJLMN": {
+                    "T4": [
+                        ">B",
+                        "DEFGJLMN"
+                    ]
+                },
+                "DEFGJLMN": {
+                    "T6": [
+                        ">E",
+                        "DF",
+                        "GJLMN"
+                    ]
+                },
+                "DF": {
+                    "T14": [
+                        ">D",
+                        ">F"
+                    ]
+                },
+                "GJLMN": {
+                    "T8": [
+                        "GJ",
+                        "LMN"
+                    ]
+                },
+                "GJ": {
+                    "T9": [
+                        ">G",
+                        ">J"
+                    ]
+                },
+                "LMN": {
+                    "T10": [
+                        ">L",
+                        ">M",
+                        ">N"
+                    ]
+                }
+            },
+            "quality_classes": {
+                "c0p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                }
+            }
+        },
+        "Valeo_TG11": {
+            "product_id": 14,
+            "product_structure": {
+                "ABCDEFGIJLMNOP": {
+                    "T1": [
+                        ">I",
+                        "ABCDEFGJLMNOP"
+                    ]
+                },
+                "ABCDEFGJLMNOP": {
+                    "T2": [
+                        ">A",
+                        "BCDEFGJLMNOP"
+                    ]
+                },
+                "BCDEFGJLMNOP": {
+                    "T3": [
+                        ">C",
+                        "BDEFGJLMNOP"
+                    ]
+                },
+                "BDEFGJLMNOP": {
+                    "T4": [
+                        ">B",
+                        "DEFGJLMNOP"
+                    ]
+                },
+                "DEFGJLMNOP": {
+                    "T6": [
+                        ">E",
+                        ">P",
+                        "DFO",
+                        "GJLMN"
+                    ]
+                },
+                "DFO": {
+                    "T7": [
+                        ">O",
+                        ">DF"
+                    ]
+                },
+                "GJLMN": {
+                    "T8": [
+                        "GJ",
+                        "LMN"
+                    ]
+                },
+                "GJ": {
+                    "T9": [
+                        ">G",
+                        ">J"
+                    ]
+                },
+                "LMN": {
+                    "T10": [
+                        ">L",
+                        ">M",
+                        ">N"
+                    ]
+                }
+            },
+            "quality_classes": {
+                "c0p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                }
+            }
+        },
+        "Mareli_6332": {
+            "product_id": 15,
+            "product_structure": {
+                "ABCDEFGIJLMNO": {
+                    "T1": [
+                        ">I",
+                        "ABCDEFGJLMNO"
+                    ]
+                },
+                "ABCDEFGJLMNO": {
+                    "T2": [
+                        ">A",
+                        "BCDEFGJLMNO"
+                    ]
+                },
+                "BCDEFGJLMNO": {
+                    "T3": [
+                        ">C",
+                        "BDEFGJLMNO"
+                    ]
+                },
+                "BDEFGJLMNO": {
+                    "T4": [
+                        ">B",
+                        "DEFGJLMNO"
+                    ]
+                },
+                "DEFGJLMNO": {
+                    "T5": [
+                        ">F",
+                        "DEGJLMNO"
+                    ]
+                },
+                "DEGJLMNO": {
+                    "T6": [
+                        "DGJO",
+                        "ELMN"
+                    ]
+                },
+                "DGJO": {
+                    "T11": [
+                        ">DO",
+                        "GJ"
+                    ]
+                },
+                "ELMN": {
+                    "T12": [
+                        "ELM",
+                        ">N"
+                    ]
+                },
+                "GJ": {
+                    "T9": [
+                        ">G",
+                        ">J"
+                    ]
+                },
+                "ELM": {
+                    "T13": [
+                        ">E",
+                        ">L",
+                        ">M"
+                    ]
+                }
+            },
+            "quality_classes": {
+                "c0p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                }
+            }
+        },
+        "Denso_101210": {
+            "product_id": 16,
+            "product_structure": {
+                "ABCDEFGIJLMNO": {
+                    "T1": [
+                        ">I",
+                        "ABCDEFGJLMNO"
+                    ]
+                },
+                "ABCDEFGJLMNO": {
+                    "T2": [
+                        ">A",
+                        "BCDEFGJLMNO"
+                    ]
+                },
+                "BCDEFGJLMNO": {
+                    "T3": [
+                        ">C",
+                        "BDEFGJLMNO"
+                    ]
+                },
+                "BDEFGJLMNO": {
+                    "T4": [
+                        ">B",
+                        "DEFGJLMNO"
+                    ]
+                },
+                "DEFGJLMNO": {
+                    "T5": [
+                        ">F",
+                        "DEGJLMNO"
+                    ]
+                },
+                "DEGJLMNO": {
+                    "T6": [
+                        "DGJO",
+                        "ELMN"
+                    ]
+                },
+                "DGJO": {
+                    "T11": [
+                        ">DO",
+                        "GJ"
+                    ]
+                },
+                "ELMN": {
+                    "T12": [
+                        "ELM",
+                        ">N"
+                    ]
+                },
+                "GJ": {
+                    "T9": [
+                        ">G",
+                        ">J"
+                    ]
+                },
+                "ELM": {
+                    "T13": [
+                        ">E",
+                        ">L",
+                        ">M"
+                    ]
+                }
+            },
+            "quality_classes": {
+                "c0p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                }
+            }
+        },
+        "Valeo_TG": {
+            "product_id": 17,
+            "product_structure": {
+                "ABCDEFGIJLMNOP": {
+                    "T1": [
+                        ">I",
+                        "ABCDEFGJLMNOP"
+                    ]
+                },
+                "ABCDEFGJLMNOP": {
+                    "T2": [
+                        ">A",
+                        "BCDEFGJLMNOP"
+                    ]
+                },
+                "BCDEFGJLMNOP": {
+                    "T3": [
+                        ">C",
+                        "BDEFGJLMNOP"
+                    ]
+                },
+                "BDEFGJLMNOP": {
+                    "T4": [
+                        ">B",
+                        "DEFGJLMNOP"
+                    ]
+                },
+                "DEFGJLMNOP": {
+                    "T6": [
+                        ">E",
+                        ">P",
+                        "DFO",
+                        "GJLMN"
+                    ]
+                },
+                "DFO": {
+                    "T7": [
+                        ">O",
+                        ">DF"
+                    ]
+                },
+                "GJLMN": {
+                    "T8": [
+                        "GJ",
+                        "LMN"
+                    ]
+                },
+                "GJ": {
+                    "T9": [
+                        ">G",
+                        ">J"
+                    ]
+                },
+                "LMN": {
+                    "T10": [
+                        ">L",
+                        ">M",
+                        ">N"
+                    ]
+                }
+            },
+            "quality_classes": {
+                "c0p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                }
+            }
+        },
+        "Hitachi_LR": {
+            "product_id": 18,
+            "product_structure": {
+                "BCDEFGIJLMNOQ*S": {
+                    "T1": [
+                        ">I",
+                        "BCDEFGJLMNOQ*S"
+                    ]
+                },
+                "BCDEFGJLMNOQ*S": {
+                    "T3": [
+                        ">C",
+                        "BDEFGJLMNOQ*S"
+                    ]
+                },
+                "BDEFGJLMNOQ*S": {
+                    "T6": [
+                        ">E",
+                        "BDFOS",
+                        "GJLMN",
+                        "Q*"
+                    ]
+                },
+                "BDFOS": {
+                    "T14": [
+                        "BFS",
+                        "DO"
+                    ]
+                },
+                "GJLMN": {
+                    "T8": [
+                        "GJ",
+                        "LMN"
+                    ]
+                },
+                "BFS": {
+                    "T15": [
+                        ">S",
+                        ">B",
+                        ">F"
+                    ]
+                },
+                "DO": {
+                    "T7": [
+                        ">D",
+                        ">O"
+                    ]
+                },
+                "GJ": {
+                    "T9": [
+                        ">G",
+                        ">J"
+                    ]
+                },
+                "LMN": {
+                    "T10": [
+                        ">L",
+                        ">M",
+                        ">N"
+                    ]
+                },
+                "Q*": {
+                    "T16": [
+                        ">Q"
+                    ]
+                }
+            },
+            "quality_classes": {
+                "c0p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                }
+            }
+        },
+        "Valeo_A13V": {
+            "product_id": 19,
+            "product_structure": {
+                "ABCDEFGIJLMNOP": {
+                    "T1": [
+                        ">I",
+                        "ABCDEFGJLMNOP"
+                    ]
+                },
+                "ABCDEFGJLMNOP": {
+                    "T2": [
+                        ">A",
+                        "BCDEFGJLMNOP"
+                    ]
+                },
+                "BCDEFGJLMNOP": {
+                    "T3": [
+                        ">C",
+                        "BDEFGJLMNOP"
+                    ]
+                },
+                "BDEFGJLMNOP": {
+                    "T4": [
+                        ">B",
+                        "DEFGJLMNOP"
+                    ]
+                },
+                "DEFGJLMNOP": {
+                    "T6": [
+                        ">E",
+                        ">P",
+                        "DFO",
+                        "GJLMN"
+                    ]
+                },
+                "DFO": {
+                    "T7": [
+                        ">O",
+                        ">DF"
+                    ]
+                },
+                "GJLMN": {
+                    "T8": [
+                        "GJ",
+                        "LMN"
+                    ]
+                },
+                "GJ": {
+                    "T9": [
+                        ">G",
+                        ">J"
+                    ]
+                },
+                "LMN": {
+                    "T10": [
+                        ">L",
+                        ">M",
+                        ">N"
+                    ]
+                }
+            },
+            "quality_classes": {
+                "c0p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                }
+            }
+        },
+        "Valeo_SG15": {
+            "product_id": 20,
+            "product_structure": {
+                "ABCDEFGIJLMNOP": {
+                    "T1": [
+                        ">I",
+                        "ABCDEFGJLMNOP"
+                    ]
+                },
+                "ABCDEFGJLMNOP": {
+                    "T2": [
+                        ">A",
+                        "BCDEFGJLMNOP"
+                    ]
+                },
+                "BCDEFGJLMNOP": {
+                    "T3": [
+                        ">C",
+                        "BDEFGJLMNOP"
+                    ]
+                },
+                "BDEFGJLMNOP": {
+                    "T4": [
+                        ">B",
+                        "DEFGJLMNOP"
+                    ]
+                },
+                "DEFGJLMNOP": {
+                    "T6": [
+                        ">E",
+                        ">P",
+                        "DFO",
+                        "GJLMN"
+                    ]
+                },
+                "DFO": {
+                    "T7": [
+                        ">O",
+                        ">DF"
+                    ]
+                },
+                "GJLMN": {
+                    "T8": [
+                        "GJ",
+                        "LMN"
+                    ]
+                },
+                "GJ": {
+                    "T9": [
+                        ">G",
+                        ">J"
+                    ]
+                },
+                "LMN": {
+                    "T10": [
+                        ">L",
+                        ">M",
+                        ">N"
+                    ]
+                }
+            },
+            "quality_classes": {
+                "c0p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                }
+            }
+        },
+        "Delco_8400159": {
+            "product_id": 21,
+            "product_structure": {
+                "ABCDEFGIJLMNO": {
+                    "T1": [
+                        ">I",
+                        "ABCDEFGJLMNO"
+                    ]
+                },
+                "ABCDEFGJLMNO": {
+                    "T2": [
+                        ">A",
+                        "BCDEFGJLMNO"
+                    ]
+                },
+                "BCDEFGJLMNO": {
+                    "T3": [
+                        ">C",
+                        "BDEFGJLMNO"
+                    ]
+                },
+                "BDEFGJLMNO": {
+                    "T4": [
+                        ">B",
+                        "DEFGJLMNO"
+                    ]
+                },
+                "DEFGJLMNO": {
+                    "T5": [
+                        ">F",
+                        "DEGJLMNO"
+                    ]
+                },
+                "DEGJLMNO": {
+                    "T6": [
+                        ">E",
+                        "DO",
+                        "GJLMN"
+                    ]
+                },
+                "DO": {
+                    "T7": [
+                        ">D",
+                        ">O"
+                    ]
+                },
+                "GJLMN": {
+                    "T8": [
+                        "GJ",
+                        "LMN"
+                    ]
+                },
+                "GJ": {
+                    "T9": [
+                        ">G",
+                        ">J"
+                    ]
+                },
+                "LMN": {
+                    "T10": [
+                        ">L",
+                        ">M",
+                        ">N"
+                    ]
+                }
+            },
+            "quality_classes": {
+                "c0p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                }
+            }
+        },
+        "Valeo_A11": {
+            "product_id": 22,
+            "product_structure": {
+                "ABCDEFGIJLMNOP": {
+                    "T1": [
+                        ">I",
+                        "ABCDEFGJLMNOP"
+                    ]
+                },
+                "ABCDEFGJLMNOP": {
+                    "T2": [
+                        ">A",
+                        "BCDEFGJLMNOP"
+                    ]
+                },
+                "BCDEFGJLMNOP": {
+                    "T3": [
+                        ">C",
+                        "BDEFGJLMNOP"
+                    ]
+                },
+                "BDEFGJLMNOP": {
+                    "T4": [
+                        ">B",
+                        "DEFGJLMNOP"
+                    ]
+                },
+                "DEFGJLMNOP": {
+                    "T6": [
+                        ">E",
+                        ">P",
+                        "DFO",
+                        "GJLMN"
+                    ]
+                },
+                "DFO": {
+                    "T7": [
+                        ">O",
+                        ">DF"
+                    ]
+                },
+                "GJLMN": {
+                    "T8": [
+                        "GJ",
+                        "LMN"
+                    ]
+                },
+                "GJ": {
+                    "T9": [
+                        ">G",
+                        ">J"
+                    ]
+                },
+                "LMN": {
+                    "T10": [
+                        ">L",
+                        ">M",
+                        ">N"
+                    ]
+                }
+            },
+            "quality_classes": {
+                "c0p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                }
+            }
+        },
+        "Jap_37300": {
+            "product_id": 23,
+            "product_structure": {
+                "BCDEFGIJLMNOQ*S": {
+                    "T1": [
+                        ">I",
+                        "BCDEFGJLMNOQ*S"
+                    ]
+                },
+                "BCDEFGJLMNOQ*S": {
+                    "T3": [
+                        ">C",
+                        "BDEFGJLMNOQ*S"
+                    ]
+                },
+                "BDEFGJLMNOQ*S": {
+                    "T6": [
+                        ">E",
+                        "BDFOS",
+                        "GJLMN",
+                        "Q*"
+                    ]
+                },
+                "BDFOS": {
+                    "T14": [
+                        "BFS",
+                        "DO"
+                    ]
+                },
+                "GJLMN": {
+                    "T8": [
+                        "GJ",
+                        "LMN"
+                    ]
+                },
+                "BFS": {
+                    "T15": [
+                        ">S",
+                        ">B",
+                        ">F"
+                    ]
+                },
+                "DO": {
+                    "T7": [
+                        ">D",
+                        ">O"
+                    ]
+                },
+                "GJ": {
+                    "T9": [
+                        ">G",
+                        ">J"
+                    ]
+                },
+                "LMN": {
+                    "T10": [
+                        ">L",
+                        ">M",
+                        ">N"
+                    ]
+                },
+                "Q*": {
+                    "T16": [
+                        ">Q"
+                    ]
+                }
+            },
+            "quality_classes": {
+                "c0p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                }
+            }
+        },
+        "Bosch_NBL": {
+            "product_id": 24,
+            "product_structure": {
+                "ABCDEFGIJLMNOP": {
+                    "T1": [
+                        ">I",
+                        "ABCDEFGJLMNOP"
+                    ]
+                },
+                "ABCDEFGJLMNOP": {
+                    "T2": [
+                        ">A",
+                        "BCDEFGJLMNOP"
+                    ]
+                },
+                "BCDEFGJLMNOP": {
+                    "T3": [
+                        ">C",
+                        "BDEFGJLMNOP"
+                    ]
+                },
+                "BDEFGJLMNOP": {
+                    "T4": [
+                        ">B",
+                        "DEFGJLMNOP"
+                    ]
+                },
+                "DEFGJLMNOP": {
+                    "T6": [
+                        ">E",
+                        ">P",
+                        "DFO",
+                        "GJLMN"
+                    ]
+                },
+                "DFO": {
+                    "T7": [
+                        ">O",
+                        ">DF"
+                    ]
+                },
+                "GJLMN": {
+                    "T8": [
+                        "GJ",
+                        "LMN"
+                    ]
+                },
+                "GJ": {
+                    "T9": [
+                        ">G",
+                        ">J"
+                    ]
+                },
+                "LMN": {
+                    "T10": [
+                        ">L",
+                        ">M",
+                        ">N"
+                    ]
+                }
+            },
+            "quality_classes": {
+                "c0p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                }
+            }
+        },
+        "Valeo_SG14": {
+            "product_id": 25,
+            "product_structure": {
+                "ABCDEFGIJLMNOP": {
+                    "T1": [
+                        ">I",
+                        "ABCDEFGJLMNOP"
+                    ]
+                },
+                "ABCDEFGJLMNOP": {
+                    "T2": [
+                        ">A",
+                        "BCDEFGJLMNOP"
+                    ]
+                },
+                "BCDEFGJLMNOP": {
+                    "T3": [
+                        ">C",
+                        "BDEFGJLMNOP"
+                    ]
+                },
+                "BDEFGJLMNOP": {
+                    "T4": [
+                        ">B",
+                        "DEFGJLMNOP"
+                    ]
+                },
+                "DEFGJLMNOP": {
+                    "T6": [
+                        ">E",
+                        ">P",
+                        "DFO",
+                        "GJLMN"
+                    ]
+                },
+                "DFO": {
+                    "T7": [
+                        ">O",
+                        ">DF"
+                    ]
+                },
+                "GJLMN": {
+                    "T8": [
+                        "GJ",
+                        "LMN"
+                    ]
+                },
+                "GJ": {
+                    "T9": [
+                        ">G",
+                        ">J"
+                    ]
+                },
+                "LMN": {
+                    "T10": [
+                        ">L",
+                        ">M",
+                        ">N"
+                    ]
+                }
+            },
+            "quality_classes": {
+                "c0p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                }
+            }
+        },
+        "Valeo_TG9": {
+            "product_id": 26,
+            "product_structure": {
+                "ABCDEFGIJLMNOP": {
+                    "T1": [
+                        ">I",
+                        "ABCDEFGJLMNOP"
+                    ]
+                },
+                "ABCDEFGJLMNOP": {
+                    "T2": [
+                        ">A",
+                        "BCDEFGJLMNOP"
+                    ]
+                },
+                "BCDEFGJLMNOP": {
+                    "T3": [
+                        ">C",
+                        "BDEFGJLMNOP"
+                    ]
+                },
+                "BDEFGJLMNOP": {
+                    "T4": [
+                        ">B",
+                        "DEFGJLMNOP"
+                    ]
+                },
+                "DEFGJLMNOP": {
+                    "T6": [
+                        ">E",
+                        ">P",
+                        "DFO",
+                        "GJLMN"
+                    ]
+                },
+                "DFO": {
+                    "T7": [
+                        ">O",
+                        ">DF"
+                    ]
+                },
+                "GJLMN": {
+                    "T8": [
+                        "GJ",
+                        "LMN"
+                    ]
+                },
+                "GJ": {
+                    "T9": [
+                        ">G",
+                        ">J"
+                    ]
+                },
+                "LMN": {
+                    "T10": [
+                        ">L",
+                        ">M",
+                        ">N"
+                    ]
+                }
+            },
+            "quality_classes": {
+                "c0p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                }
+            }
+        },
+        "Valeo_TG8": {
+            "product_id": 27,
+            "product_structure": {
+                "ABCDEFGIJLMNOP": {
+                    "T1": [
+                        ">I",
+                        "ABCDEFGJLMNOP"
+                    ]
+                },
+                "ABCDEFGJLMNOP": {
+                    "T2": [
+                        ">A",
+                        "BCDEFGJLMNOP"
+                    ]
+                },
+                "BCDEFGJLMNOP": {
+                    "T3": [
+                        ">C",
+                        "BDEFGJLMNOP"
+                    ]
+                },
+                "BDEFGJLMNOP": {
+                    "T4": [
+                        ">B",
+                        "DEFGJLMNOP"
+                    ]
+                },
+                "DEFGJLMNOP": {
+                    "T6": [
+                        ">E",
+                        ">P",
+                        "DFO",
+                        "GJLMN"
+                    ]
+                },
+                "DFO": {
+                    "T7": [
+                        ">O",
+                        ">DF"
+                    ]
+                },
+                "GJLMN": {
+                    "T8": [
+                        "GJ",
+                        "LMN"
+                    ]
+                },
+                "GJ": {
+                    "T9": [
+                        ">G",
+                        ">J"
+                    ]
+                },
+                "LMN": {
+                    "T10": [
+                        ">L",
+                        ">M",
+                        ">N"
+                    ]
+                }
+            },
+            "quality_classes": {
+                "c0p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                }
+            }
+        },
+        "Valeo_A13N": {
+            "product_id": 28,
+            "product_structure": {
+                "ABCDEFGIJLMNOP": {
+                    "T1": [
+                        ">I",
+                        "ABCDEFGJLMNOP"
+                    ]
+                },
+                "ABCDEFGJLMNOP": {
+                    "T2": [
+                        ">A",
+                        "BCDEFGJLMNOP"
+                    ]
+                },
+                "BCDEFGJLMNOP": {
+                    "T3": [
+                        ">C",
+                        "BDEFGJLMNOP"
+                    ]
+                },
+                "BDEFGJLMNOP": {
+                    "T4": [
+                        ">B",
+                        "DEFGJLMNOP"
+                    ]
+                },
+                "DEFGJLMNOP": {
+                    "T6": [
+                        ">E",
+                        ">P",
+                        "DFO",
+                        "GJLMN"
+                    ]
+                },
+                "DFO": {
+                    "T7": [
+                        ">O",
+                        ">DF"
+                    ]
+                },
+                "GJLMN": {
+                    "T8": [
+                        "GJ",
+                        "LMN"
+                    ]
+                },
+                "GJ": {
+                    "T9": [
+                        ">G",
+                        ">J"
+                    ]
+                },
+                "LMN": {
+                    "T10": [
+                        ">L",
+                        ">M",
+                        ">N"
+                    ]
+                }
+            },
+            "quality_classes": {
+                "c0p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                }
+            }
+        },
+        "Visteon_2S6": {
+            "product_id": 29,
+            "product_structure": {
+                "ABCDEFGIJLMNO": {
+                    "T1": [
+                        ">I",
+                        "ABCDEFGJLMNO"
+                    ]
+                },
+                "ABCDEFGJLMNO": {
+                    "T2": [
+                        ">A",
+                        "BCDEFGJLMNO"
+                    ]
+                },
+                "BCDEFGJLMNO": {
+                    "T3": [
+                        ">C",
+                        "BDEFGJLMNO"
+                    ]
+                },
+                "BDEFGJLMNO": {
+                    "T4": [
+                        ">B",
+                        "DEFGJLMNO"
+                    ]
+                },
+                "DEFGJLMNO": {
+                    "T5": [
+                        ">F",
+                        "DEGJLMNO"
+                    ]
+                },
+                "DEGJLMNO": {
+                    "T6": [
+                        "DGJO",
+                        "ELMN"
+                    ]
+                },
+                "DGJO": {
+                    "T11": [
+                        ">DO",
+                        "GJ"
+                    ]
+                },
+                "ELMN": {
+                    "T12": [
+                        "ELM",
+                        ">N"
+                    ]
+                },
+                "GJ": {
+                    "T9": [
+                        ">G",
+                        ">J"
+                    ]
+                },
+                "ELM": {
+                    "T13": [
+                        ">E",
+                        ">L",
+                        ">M"
+                    ]
+                }
+            },
+            "quality_classes": {
+                "c0p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                }
+            }
+        },
+        "Visteon_1S7": {
+            "product_id": 30,
+            "product_structure": {
+                "ABCDEFGIJLMNO": {
+                    "T1": [
+                        ">I",
+                        "ABCDEFGJLMNO"
+                    ]
+                },
+                "ABCDEFGJLMNO": {
+                    "T2": [
+                        ">A",
+                        "BCDEFGJLMNO"
+                    ]
+                },
+                "BCDEFGJLMNO": {
+                    "T3": [
+                        ">C",
+                        "BDEFGJLMNO"
+                    ]
+                },
+                "BDEFGJLMNO": {
+                    "T4": [
+                        ">B",
+                        "DEFGJLMNO"
+                    ]
+                },
+                "DEFGJLMNO": {
+                    "T5": [
+                        ">F",
+                        "DEGJLMNO"
+                    ]
+                },
+                "DEGJLMNO": {
+                    "T6": [
+                        "DGJO",
+                        "ELMN"
+                    ]
+                },
+                "DGJO": {
+                    "T11": [
+                        ">DO",
+                        "GJ"
+                    ]
+                },
+                "ELMN": {
+                    "T12": [
+                        "ELM",
+                        ">N"
+                    ]
+                },
+                "GJ": {
+                    "T9": [
+                        ">G",
+                        ">J"
+                    ]
+                },
+                "ELM": {
+                    "T13": [
+                        ">E",
+                        ">L",
+                        ">M"
+                    ]
+                }
+            },
+            "quality_classes": {
+                "c0p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                }
+            }
+        },
+        "Valeo_SG7": {
+            "product_id": 31,
+            "product_structure": {
+                "ABCDEFGIJLMNOP": {
+                    "T1": [
+                        ">I",
+                        "ABCDEFGJLMNOP"
+                    ]
+                },
+                "ABCDEFGJLMNOP": {
+                    "T2": [
+                        ">A",
+                        "BCDEFGJLMNOP"
+                    ]
+                },
+                "BCDEFGJLMNOP": {
+                    "T3": [
+                        ">C",
+                        "BDEFGJLMNOP"
+                    ]
+                },
+                "BDEFGJLMNOP": {
+                    "T4": [
+                        ">B",
+                        "DEFGJLMNOP"
+                    ]
+                },
+                "DEFGJLMNOP": {
+                    "T6": [
+                        ">E",
+                        ">P",
+                        "DFO",
+                        "GJLMN"
+                    ]
+                },
+                "DFO": {
+                    "T7": [
+                        ">O",
+                        ">DF"
+                    ]
+                },
+                "GJLMN": {
+                    "T8": [
+                        "GJ",
+                        "LMN"
+                    ]
+                },
+                "GJ": {
+                    "T9": [
+                        ">G",
+                        ">J"
+                    ]
+                },
+                "LMN": {
+                    "T10": [
+                        ">L",
+                        ">M",
+                        ">N"
+                    ]
+                }
+            },
+            "quality_classes": {
+                "c0p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                }
+            }
+        },
+        "Valeo_SG10": {
+            "product_id": 32,
+            "product_structure": {
+                "ABCDEFGIJLMNOP": {
+                    "T1": [
+                        ">I",
+                        "ABCDEFGJLMNOP"
+                    ]
+                },
+                "ABCDEFGJLMNOP": {
+                    "T2": [
+                        ">A",
+                        "BCDEFGJLMNOP"
+                    ]
+                },
+                "BCDEFGJLMNOP": {
+                    "T3": [
+                        ">C",
+                        "BDEFGJLMNOP"
+                    ]
+                },
+                "BDEFGJLMNOP": {
+                    "T4": [
+                        ">B",
+                        "DEFGJLMNOP"
+                    ]
+                },
+                "DEFGJLMNOP": {
+                    "T6": [
+                        ">E",
+                        ">P",
+                        "DFO",
+                        "GJLMN"
+                    ]
+                },
+                "DFO": {
+                    "T7": [
+                        ">O",
+                        ">DF"
+                    ]
+                },
+                "GJLMN": {
+                    "T8": [
+                        "GJ",
+                        "LMN"
+                    ]
+                },
+                "GJ": {
+                    "T9": [
+                        ">G",
+                        ">J"
+                    ]
+                },
+                "LMN": {
+                    "T10": [
+                        ">L",
+                        ">M",
+                        ">N"
+                    ]
+                }
+            },
+            "quality_classes": {
+                "c0p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                }
+            }
+        },
+        "Valeo_SG8": {
+            "product_id": 33,
+            "product_structure": {
+                "ABCDEFGIJLMNOP": {
+                    "T1": [
+                        ">I",
+                        "ABCDEFGJLMNOP"
+                    ]
+                },
+                "ABCDEFGJLMNOP": {
+                    "T2": [
+                        ">A",
+                        "BCDEFGJLMNOP"
+                    ]
+                },
+                "BCDEFGJLMNOP": {
+                    "T3": [
+                        ">C",
+                        "BDEFGJLMNOP"
+                    ]
+                },
+                "BDEFGJLMNOP": {
+                    "T4": [
+                        ">B",
+                        "DEFGJLMNOP"
+                    ]
+                },
+                "DEFGJLMNOP": {
+                    "T6": [
+                        ">E",
+                        ">P",
+                        "DFO",
+                        "GJLMN"
+                    ]
+                },
+                "DFO": {
+                    "T7": [
+                        ">O",
+                        ">DF"
+                    ]
+                },
+                "GJLMN": {
+                    "T8": [
+                        "GJ",
+                        "LMN"
+                    ]
+                },
+                "GJ": {
+                    "T9": [
+                        ">G",
+                        ">J"
+                    ]
+                },
+                "LMN": {
+                    "T10": [
+                        ">L",
+                        ">M",
+                        ">N"
+                    ]
+                }
+            },
+            "quality_classes": {
+                "c0p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                }
+            }
+        },
+        "Visteon_2T": {
+            "product_id": 34,
+            "product_structure": {
+                "ABCDEFGIJLMNO": {
+                    "T1": [
+                        ">I",
+                        "ABCDEFGJLMNO"
+                    ]
+                },
+                "ABCDEFGJLMNO": {
+                    "T2": [
+                        ">A",
+                        "BCDEFGJLMNO"
+                    ]
+                },
+                "BCDEFGJLMNO": {
+                    "T3": [
+                        ">C",
+                        "BDEFGJLMNO"
+                    ]
+                },
+                "BDEFGJLMNO": {
+                    "T4": [
+                        ">B",
+                        "DEFGJLMNO"
+                    ]
+                },
+                "DEFGJLMNO": {
+                    "T5": [
+                        ">F",
+                        "DEGJLMNO"
+                    ]
+                },
+                "DEGJLMNO": {
+                    "T6": [
+                        "DGJO",
+                        "ELMN"
+                    ]
+                },
+                "DGJO": {
+                    "T11": [
+                        ">DO",
+                        "GJ"
+                    ]
+                },
+                "ELMN": {
+                    "T12": [
+                        "ELM",
+                        ">N"
+                    ]
+                },
+                "GJ": {
+                    "T9": [
+                        ">G",
+                        ">J"
+                    ]
+                },
+                "ELM": {
+                    "T13": [
+                        ">E",
+                        ">L",
+                        ">M"
+                    ]
+                }
+            },
+            "quality_classes": {
+                "c0p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                }
+            }
+        },
+        "Bosch_T1-DT1/T1 Sattel": {
+            "product_id": 35,
+            "product_structure": {
+                "ABCDEFGIJLMNO": {
+                    "T1": [
+                        ">I",
+                        "ABCDEFGJLMNO"
+                    ]
+                },
+                "ABCDEFGJLMNO": {
+                    "T2": [
+                        ">A",
+                        "BCDEFGJLMNO"
+                    ]
+                },
+                "BCDEFGJLMNO": {
+                    "T3": [
+                        ">C",
+                        "BDEFGJLMNO"
+                    ]
+                },
+                "BDEFGJLMNO": {
+                    "T4": [
+                        ">B",
+                        "DEFGJLMNO"
+                    ]
+                },
+                "DEFGJLMNO": {
+                    "T5": [
+                        ">F",
+                        "DEGJLMNO"
+                    ]
+                },
+                "DEGJLMNO": {
+                    "T6": [
+                        ">E",
+                        "DO",
+                        "GJLMN"
+                    ]
+                },
+                "DO": {
+                    "T7": [
+                        ">D",
+                        ">O"
+                    ]
+                },
+                "GJLMN": {
+                    "T8": [
+                        "GJ",
+                        "LMN"
+                    ]
+                },
+                "GJ": {
+                    "T9": [
+                        ">G",
+                        ">J"
+                    ]
+                },
+                "LMN": {
+                    "T10": [
+                        ">L",
+                        ">M",
+                        ">N"
+                    ]
+                }
+            },
+            "quality_classes": {
+                "c0p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                }
+            }
+        },
+        "Valeo_TG10": {
+            "product_id": 36,
+            "product_structure": {
+                "ABCDEFGIJLMNOP": {
+                    "T1": [
+                        ">I",
+                        "ABCDEFGJLMNOP"
+                    ]
+                },
+                "ABCDEFGJLMNOP": {
+                    "T2": [
+                        ">A",
+                        "BCDEFGJLMNOP"
+                    ]
+                },
+                "BCDEFGJLMNOP": {
+                    "T3": [
+                        ">C",
+                        "BDEFGJLMNOP"
+                    ]
+                },
+                "BDEFGJLMNOP": {
+                    "T4": [
+                        ">B",
+                        "DEFGJLMNOP"
+                    ]
+                },
+                "DEFGJLMNOP": {
+                    "T6": [
+                        ">E",
+                        ">P",
+                        "DFO",
+                        "GJLMN"
+                    ]
+                },
+                "DFO": {
+                    "T7": [
+                        ">O",
+                        ">DF"
+                    ]
+                },
+                "GJLMN": {
+                    "T8": [
+                        "GJ",
+                        "LMN"
+                    ]
+                },
+                "GJ": {
+                    "T9": [
+                        ">G",
+                        ">J"
+                    ]
+                },
+                "LMN": {
+                    "T10": [
+                        ">L",
+                        ">M",
+                        ">N"
+                    ]
+                }
+            },
+            "quality_classes": {
+                "c0p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                }
+            }
+        },
+        "Valeo_TG12": {
+            "product_id": 37,
+            "product_structure": {
+                "ABCDEFGIJLMNOP": {
+                    "T1": [
+                        ">I",
+                        "ABCDEFGJLMNOP"
+                    ]
+                },
+                "ABCDEFGJLMNOP": {
+                    "T2": [
+                        ">A",
+                        "BCDEFGJLMNOP"
+                    ]
+                },
+                "BCDEFGJLMNOP": {
+                    "T3": [
+                        ">C",
+                        "BDEFGJLMNOP"
+                    ]
+                },
+                "BDEFGJLMNOP": {
+                    "T4": [
+                        ">B",
+                        "DEFGJLMNOP"
+                    ]
+                },
+                "DEFGJLMNOP": {
+                    "T6": [
+                        ">E",
+                        ">P",
+                        "DFO",
+                        "GJLMN"
+                    ]
+                },
+                "DFO": {
+                    "T7": [
+                        ">O",
+                        ">DF"
+                    ]
+                },
+                "GJLMN": {
+                    "T8": [
+                        "GJ",
+                        "LMN"
+                    ]
+                },
+                "GJ": {
+                    "T9": [
+                        ">G",
+                        ">J"
+                    ]
+                },
+                "LMN": {
+                    "T10": [
+                        ">L",
+                        ">M",
+                        ">N"
+                    ]
+                }
+            },
+            "quality_classes": {
+                "c0p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                }
+            }
+        },
+        "Denso_101211": {
+            "product_id": 38,
+            "product_structure": {
+                "ABCDEFGIJLMNO": {
+                    "T1": [
+                        ">I",
+                        "ABCDEFGJLMNO"
+                    ]
+                },
+                "ABCDEFGJLMNO": {
+                    "T2": [
+                        ">A",
+                        "BCDEFGJLMNO"
+                    ]
+                },
+                "BCDEFGJLMNO": {
+                    "T3": [
+                        ">C",
+                        "BDEFGJLMNO"
+                    ]
+                },
+                "BDEFGJLMNO": {
+                    "T4": [
+                        ">B",
+                        "DEFGJLMNO"
+                    ]
+                },
+                "DEFGJLMNO": {
+                    "T5": [
+                        ">F",
+                        "DEGJLMNO"
+                    ]
+                },
+                "DEGJLMNO": {
+                    "T6": [
+                        "DGJO",
+                        "ELMN"
+                    ]
+                },
+                "DGJO": {
+                    "T11": [
+                        ">DO",
+                        "GJ"
+                    ]
+                },
+                "ELMN": {
+                    "T12": [
+                        "ELM",
+                        ">N"
+                    ]
+                },
+                "GJ": {
+                    "T9": [
+                        ">G",
+                        ">J"
+                    ]
+                },
+                "ELM": {
+                    "T13": [
+                        ">E",
+                        ">L",
+                        ">M"
+                    ]
+                }
+            },
+            "quality_classes": {
+                "c0p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c0p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p0s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s0m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m0": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                },
+                "c1p1s1m1": {
+                    "unknown_disassembly_tasks": [],
+                    "scrap_rate": 0.7
+                }
+            }
+        }
+    }
+}

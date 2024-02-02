@@ -1,0 +1,305 @@
+{
+  "alpha": {
+    "ABCDEFGIJLMNO": {
+      "T1": [
+        ">I",
+        "ABCDEFGJLMNO"
+      ]
+    },
+    "ABCDEFGJLMNO": {
+      "T2": [
+        ">A",
+        "BCDEFGJLMNO"
+      ]
+    },
+    "BCDEFGJLMNO": {
+      "T3": [
+        ">C",
+        "BDEFGJLMNO"
+      ]
+    },
+    "BDEFGJLMNO": {
+      "T4": [
+      ">B",
+      "DEFGJLMNO"
+      ]
+    },
+    "DEFGJLMNO": {
+      "T5": [
+        ">F",
+        "DEGJLMNO"
+      ]
+    },
+    "DEGJLMNO": {
+      "T6": [
+        ">E",
+        "DO",
+        "GJLMN"
+      ]
+    },
+    "DO": {
+      "T7": [
+        ">D",
+        ">O"
+      ]
+    },
+    "GJLMN": {
+      "T8": [
+        "GJ",
+        "LMN"
+      ]
+    },
+    "GJ": {
+      "T9": [
+        ">G",
+        ">J"
+      ]
+    },
+    "LMN": {
+      "T10": [
+        ">L",
+        ">M",
+        ">N"
+      ]
+    }
+  },
+  "beta": {
+    "ABCDEFGIJLMNOP": {
+      "T1": [
+        ">I",
+        "ABCDEFGJLMNOP"
+      ]
+    },
+    "ABCDEFGJLMNOP": {
+      "T2": [
+        ">A",
+        "BCDEFGJLMNOP"
+      ]
+    },
+    "BCDEFGJLMNOP": {
+      "T3": [
+        ">C",
+        "BDEFGJLMNOP"
+      ]
+    },
+    "BDEFGJLMNOP": {
+      "T4": [
+      ">B",
+      "DEFGJLMNOP"
+      ]
+    },
+    "DEFGJLMNOP": {
+      "T6": [
+        ">E",
+        ">P",
+        "DFO",
+        "GJLMN"
+      ]
+    },
+    "DFO": {
+      "T7": [
+        ">O",
+        ">DF"
+      ]
+    },
+    "GJLMN": {
+      "T8": [
+        "GJ",
+        "LMN"
+      ]
+    },
+    "GJ": {
+      "T9": [
+        ">G",
+        ">J"
+      ]
+    },
+    "LMN": {
+      "T10": [
+        ">L",
+        ">M",
+        ">N"
+      ]
+    }
+  },
+  "gamma": {
+    "ABCDEFGIJLMNO": {
+      "T1": [
+        ">I",
+        "ABCDEFGJLMNO"
+      ]
+    },
+    "ABCDEFGJLMNO": {
+      "T2": [
+        ">A",
+        "BCDEFGJLMNO"
+      ]
+    },
+    "BCDEFGJLMNO": {
+      "T3": [
+        ">C",
+        "BDEFGJLMNO"
+      ]
+    },
+    "BDEFGJLMNO": {
+      "T4": [
+      ">B",
+      "DEFGJLMNO"
+      ]
+    },
+    "DEFGJLMNO": {
+      "T5": [
+        ">F",
+        "DEGJLMNO"
+      ]
+    },
+    "DEGJLMNO": {
+      "T6": [
+        "DGJO",
+        "ELMN"
+      ]
+    },
+    "DGJO": {
+      "T11": [
+        ">DO",
+        "GJ"
+      ]
+    },
+    "ELMN": {
+      "T12": [
+        "ELM",
+        ">N"
+      ]
+    },
+    "GJ": {
+      "T9": [
+        ">G",
+        ">J"
+      ]
+    },
+    "ELM": {
+      "T13": [
+        ">E",
+        ">L",
+        ">M"
+      ]
+    }
+  },
+  "epsilon": {
+    "BCDEFGIJLMNOQ*S": {
+        "T1": [
+          ">I",
+          "BCDEFGJLMNOQ*S"
+        ]
+      },
+      "BCDEFGJLMNOQ*S": {
+        "T3": [
+          ">C",
+          "BDEFGJLMNOQ*S"
+        ]
+      },
+      "BDEFGJLMNOQ*S": {
+      "T6": [
+        ">E",
+        "BDFOS",
+        "GJLMN",
+        "Q*"
+      ]
+    },
+    "BDFOS": {
+      "T14": [
+        "BFS",
+        "DO"
+      ]
+    },
+    "GJLMN": {
+      "T8": [
+        "GJ",
+        "LMN"
+      ]
+    },
+    "BFS": {
+      "T15": [
+        ">S",
+        ">B",
+        ">F"
+      ]
+    },
+    "DO": {
+      "T7": [
+        ">D",
+        ">O"
+      ]
+    },
+    "GJ": {
+      "T9": [
+        ">G",
+        ">J"
+      ]
+    },
+    "LMN": {
+      "T10": [
+        ">L",
+        ">M",
+        ">N"
+      ]
+    },
+    "Q*": {
+      "T16": [
+        ">Q"
+      ]
+    }
+  },
+  "epsilon2": {
+    "BCDEFGIJLMN": {
+    "T1": [
+      ">I",
+      "BCDEFGJLMN"
+    ]
+  },
+  "BCDEFGJLMN": {
+    "T3": [
+      ">C",
+      "BDEFGJLMN"
+    ]
+  },
+  "BDEFGJLMN": {
+    "T4": [
+      ">B",
+      "DEFGJLMN"
+    ]
+  }, 
+    "DEFGJLMN": {
+      "T6": [
+        ">E",
+        "DF",
+        "GJLMN"
+      ]
+    },
+    "DF": {
+      "T14": [
+        ">D",
+        ">F"
+      ]
+    },
+    "GJLMN": {
+      "T8": [
+        "GJ",
+        "LMN"
+      ]
+    },
+    "GJ": {
+      "T9": [
+        ">G",
+        ">J"
+      ]
+    },
+    "LMN": {
+      "T10": [
+        ">L",
+        ">M",
+        ">N"
+      ]
+    }
+  }
+}

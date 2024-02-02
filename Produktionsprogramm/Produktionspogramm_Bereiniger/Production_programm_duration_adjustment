@@ -1,0 +1,19 @@
+import json
+
+# Dateipfad zur JSON-Datei
+json_file_path = r"C:\Users\Wiwi\.vscode\Produktionspogramm\Bereinigte_Daten\bosch_production_program_21_22_daily_adjusted.json"
+
+# JSON-Daten aus der Datei laden
+with open(json_file_path, 'r') as file:
+    data = json.load(file)
+
+# Durchlaufe die Daten
+for date, values in data.items():
+    # Überprüfe, ob die Dauer null ist
+    if values["duration"] is None:
+        # Setze die Dauer auf 480
+        values["duration"] = 480
+
+# JSON-Daten zurück in die Datei schreiben
+with open(json_file_path, 'w') as file:
+    json.dump(data, file, indent=2)

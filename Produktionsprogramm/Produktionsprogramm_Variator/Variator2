@@ -1,0 +1,40 @@
+import json
+
+def update_produktionsmenge(json_dateipfad, quality_class_to_assign):
+    try:
+        with open(json_dateipfad, 'r') as json_datei:
+            produktionsprogramm = json.load(json_datei)
+
+        # Iterate over all periods and motors
+        for periode, motoren in produktionsprogramm.items():
+            for motor, qualitaetsklassen in motoren.items():
+                # Skip "ID" and "duration"
+                if motor == "ID" or motor == "duration":
+                    continue
+
+                # Get the quantity from the "c0p0s0m0" quality class
+                quantity_to_assign = produktionsprogramm[periode][motor]["c0p0s0m0"]
+
+                # Assign the quantity to the specified quality class
+                produktionsprogramm[periode][motor][quality_class_to_assign] = quantity_to_assign
+
+                # Set the "c0p0s0m0" quality class to 0
+                produktionsprogramm[periode][motor]["c0p0s0m0"] = 0
+
+        # Save the updated data to a new JSON file
+        output_file_path = r"C:\Users\Wiwi\.vscode\Produktionsprogramm_Variator\output_updated.json"
+        with open(output_file_path, 'w') as output_json_file:
+            json.dump(produktionsprogramm, output_json_file, indent=2)
+
+    except Exception as e:
+        print(f'Fehler beim Aktualisieren der Produktionsmenge: {e}')
+
+# Specify the quality class to which you want to assign the entire production quantity
+quality_class_to_assign = "c1p1s0m0"
+
+# Provide the path to your input JSON file
+json_dateipfad = r"C:\Users\Wiwi\.vscode\Produktionsprogramm_Variator\Input\weekly_PP_all_QK_all_periods.json"
+
+# Call the function to update the production quantities
+update_produktionsmenge(json_dateipfad, quality_class_to_assign)
+
