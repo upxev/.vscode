@@ -2,7 +2,7 @@ import os
 import json
 
 # Pfad zum Ordner, der die JSON-Dateien enthält
-folder_path = r'C:\Users\Wiwi\.vscode\Studienaufbereitung\Reifegrad_Studie_RLS\Auswertung'
+folder_path = r'C:\Users\kimsp\.vscode\.vscode\Studienaufbereitung\Reifegrad_Studie_RLS\Auswertung_2'
 
 # Liste aller JSON-Dateien im angegebenen Ordner
 file_names = [f for f in os.listdir(folder_path) if f.endswith('.json')]
@@ -22,8 +22,8 @@ for file_name in file_names:
     file_path = os.path.join(folder_path, file_name)
     modified_data = add_key_to_json(file_path, 'file_name')
     # Optional: Speichern der modifizierten Daten in einer neuen Datei
-    #new_file_path = os.path.join(folder_path, 'modified_' + file_name)
-    #with open(new_file_path, 'w') as new_file:
-       # json.dump(modified_data, new_file, indent=4)
+    new_file_path = os.path.join(folder_path, 'modified_' + file_name)
+    with open(new_file_path, 'w') as new_file:
+        json.dump(modified_data, new_file, indent=4)
 
 

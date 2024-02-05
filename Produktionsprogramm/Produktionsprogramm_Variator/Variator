@@ -1,5 +1,7 @@
 import json
 import random
+import math
+import plotly.graph_objs as go
 
 def update_produktionsmenge_gleichnäßige_Verteilung(json_dateipfad):
     try:
@@ -31,15 +33,83 @@ def update_produktionsmenge_gleichnäßige_Verteilung(json_dateipfad):
                     produktionsprogramm[periode][motor][random_qk] += 1
 
      
-        with open(r"C:\Users\Wiwi\.vscode\Produktionsprogramm_Variator\output.json", 'w') as json_datei:
+        with open(r"C:\Users\kimsp\.vscode\.vscode\Produktionsprogramm\Produktionsprogramm_Variator\Output\output_Produktionsprogramm_gleichmäßig", 'w') as json_datei:
             json.dump(produktionsprogramm, json_datei, indent=2)
 
     except Exception as e:
         print(f'Fehler beim Aktualisieren der Produktionsmenge: {e}')
 
-json_dateipfad = r"C:\Users\Wiwi\.vscode\Produktionsprogramm_Variator\Input\weekly_PP_all_QK_all_periods.json"
-update_produktionsmenge_gleichnäßige_Verteilung(json_dateipfad)
+
+def update_produktionsmenge_zufällige_Verteilung(json_dateipfad):
+    try:
+
+        with open(json_dateipfad, 'r') as json_datei:
+            produktionsprogramm = json.load(json_datei)
+
+        # Über alle Perioden iterieren
+        for periode, motoren in produktionsprogramm.items():
+             for motor, qualitaetsklassen in motoren.items():
+                # Überspringe ID und duration
+                if motor == "ID" or motor == "duration":
+                    continue
+
+                zu_verteilende_menge = sum(qualitaetsklassen.values()) 
+                qk_liste = list(qualitaetsklassen.keys())
+
+                if len(qk_liste) != 16:
+                    raise ValueError("Anzahl der Qualitätsklassen stimmt nicht mit 16 überein.")
+                
+                zufällige_prozente = random.sample(range(1, 1000), 16)
+                prozent_summe = sum(zufällige_prozente)
+                verteilungen = [round((prozent / prozent_summe) * zu_verteilende_menge) for prozent in zufällige_prozente]
+
+                differenz = zu_verteilende_menge - sum(verteilungen)
+                verteilungen[-1] += differenz  # Füge die Differenz zum letzten Element hinzu, um die Gesamtmenge korrekt zu machen
+
+                for qk, verteilung in zip(qk_liste, verteilungen):
+                    produktionsprogramm[periode][motor][qk] = verteilung
+
+     
+        with open(r"C:\Users\kimsp\.vscode\.vscode\Produktionsprogramm\Produktionsprogramm_Variator\Output\output_Produktionsprogramm_zufällig", 'w') as json_datei:
+            json.dump(produktionsprogramm, json_datei, indent=2)
+
+    except Exception as e:
+       print(f'Fehler beim Aktualisieren der Produktionsmenge: {e}')
 
 
+def update_produktionsmenge_wellenfoermige_Verteilung(json_dateipfad, perioden_anzahl):
+ try:
+        with open(json_dateipfad, 'r') as json_datei:
+            produktionsprogramm = json.load(json_datei)
+
+        # Über alle Perioden iterieren
+        for periode in range(perioden_anzahl):
+            if str(periode) in produktionsprogramm:  # Überprüfen, ob die Periode existiert
+                for motor, qualitaetsklassen in produktionsprogramm[str(periode)].items():
+                    if motor == "ID" or motor == "duration":
+                        continue
+
+                    zu_verteilende_menge = sum(qualitaetsklassen.values())
+
+                    # Zufällige Aufteilung der zu verteilenden Menge
+                    anteil_c0p0s0m0 = random.random()
+                    menge_c0p0s0m0 = zu_verteilende_menge * anteil_c0p0s0m0
+                    menge_c1p1s0m0 = zu_verteilende_menge * (1 - anteil_c0p0s0m0)
+
+                    # Zuweisung der berechneten Mengen zu den Qualitätsklassen
+                    qualitaetsklassen['c0p0s0m0'] = menge_c0p0s0m0
+                    qualitaetsklassen['c1p1s0m0'] = menge_c1p1s0m0
+
+        # Geänderte Daten zurückschreiben
+        with open(r"C:\Users\kimsp\.vscode\.vscode\Produktionsprogramm\Produktionsprogramm_Variator\Output\output_Produktionsprogramm_wellenförmig", 'w') as json_datei:
+            json.dump(produktionsprogramm, json_datei, indent=2)
+
+ except Exception as e:
+     print('Fehler beim Aktualisieren der Produktionsmenge:', e)
 
 
+json_dateipfad = r"C:\Users\kimsp\.vscode\.vscode\Produktionsprogramm\Produktionsprogramm_Variator\Input\weekly_PP_all_QK_all_periods.json"
+#update_produktionsmenge_gleichnäßige_Verteilung(json_dateipfad)
+#update_produktionsmenge_zufällige_Verteilung(json_dateipfad)
+perioden_anzahl = 64  # oder eine andere Anzahl von Perioden, die Sie verwenden möchten
+update_produktionsmenge_wellenfoermige_Verteilung(json_dateipfad, perioden_anzahl)

@@ -20,8 +20,8 @@ def speichern_neues_produktionsprogramm(neues_programm, dateiname):
         json.dump(neues_programm, datei, indent=4)
 
 # Die Funktionen ausführen
-dateiname_einlesen =  r'C:\Users\Wiwi\.vscode\Produktionsprogramm\Produktionsprogramm_Verkürzer\weekly_all_QK_gleichmäßig_verteilt.json' # Name der ursprünglichen Datei
-dateiname_speichern = 'produktionsprogramm_verkürzt.json' # Name der neuen Datei
+dateiname_einlesen =  r'C:\Users\kimsp\.vscode\.vscode\Produktionsprogramm\Produktionsprogramm_Verkürzer\output_Produktionsprogramm_zufällig' # Name der ursprünglichen Datei
+dateiname_speichern = 'produktionsprogramm_verkürzt_zufällig.json' # Name der neuen Datei
 
 # Lese das ursprüngliche Produktionsprogramm ein
 produktionsprogramm = lade_produktionsprogramm(dateiname_einlesen)
